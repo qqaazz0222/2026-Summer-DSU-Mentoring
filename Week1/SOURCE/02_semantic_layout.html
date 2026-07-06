@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>시맨틱 레이아웃 연습</title>
+  </head>
+  <body>
+    <!-- header: 페이지 상단, 보통 로고/제목/메뉴 -->
+    <header>
+      <h1>내 블로그</h1>
+      <!-- nav: 메뉴 묶음 -->
+      <nav>
+        <a href="#">홈</a>
+        <a href="#">소개</a>
+        <a href="#">연락처</a>
+      </nav>
+    </header>
+
+    <!-- main: 페이지 핵심 콘텐츠. 문서당 1번만 사용 -->
+    <main>
+      <!-- section: 주제별로 묶는 구획 -->
+      <section>
+        <h2>최근 글</h2>
+
+        <!-- article: 그 자체로 독립적인 콘텐츠 (게시글 하나하나) -->
+        <article>
+          <h3>첫 번째 글 제목</h3>
+          <p>글 내용 일부...</p>
+        </article>
+
+        <article>
+          <h3>두 번째 글 제목</h3>
+          <p>글 내용 일부...</p>
+        </article>
+      </section>
+
+      <section>
+        <h2>소개</h2>
+        <p>이 section은 다른 주제(소개)를 담고 있어서 별도로 나눴습니다.</p>
+      </section>
+    </main>
+
+    <!-- footer: 페이지 하단, 저작권/연락처 등 -->
+    <footer>
+      <p>&copy; 2026 내 블로그. 문의: example@email.com</p>
+    </footer>
+  </body>
+</html>

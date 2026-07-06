@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>기본 태그 연습</title>
+  </head>
+  <body>
+    <!-- 제목: h1이 제일 크고 h6이 제일 작음 -->
+    <h1>h1 제목 (페이지 대표 제목)</h1>
+    <h2>h2 제목</h2>
+    <h3>h3 제목</h3>
+
+    <!-- 문단 -->
+    <p>이건 문단입니다. p 태그는 줄바꿈 없이 이어 써도 자동으로 블록으로 표시됩니다.</p>
+    <p>문단은 여러 개 만들 수 있습니다. 각 p는 위아래로 여백이 생깁니다.</p>
+
+    <!-- 링크 -->
+    <a href="https://github.com">GitHub로 이동</a>
+
+    <!-- 이미지: src는 이미지 경로/주소, alt는 이미지 못 불러올 때 or 스크린리더가 읽어주는 대체 텍스트 -->
+    <img src="https://via.placeholder.com/150" alt="예시 이미지" />
+
+    <!-- 순서 없는 목록 -->
+    <h3>관심 기술 (순서 없음)</h3>
+    <ul>
+      <li>Python</li>
+      <li>HTML</li>
+      <li>CSS</li>
+    </ul>
+
+    <!-- 순서 있는 목록 -->
+    <h3>진행 순서 (번호 있음)</h3>
+    <ol>
+      <li>HTML 배우기</li>
+      <li>CSS 배우기</li>
+      <li>JS 배우기</li>
+    </ol>
+
+    <!-- div: 의미 없는 블록 상자. 지금은 그냥 묶는 용도만 확인 -->
+    <div>
+      <p>이 문단은 div로 묶여있습니다.</p>
+    </div>
+
+    <!-- span: 의미 없는 인라인 상자. 문장 중 일부만 강조하고 싶을 때 -->
+    <p>이 문장에서 <span>이 부분만</span> span으로 감쌌습니다.</p>
+
+    <!-- form: 아직 제출 기능은 없음. 마크업 구조만 확인 (Week4~5에서 서버랑 연결) -->
+    <h3>연락처 입력 (동작 없음, 구조만)</h3>
+    <form>
+      <label for="name">이름:</label>
+      <input type="text" id="name" name="name" />
+
+      <label for="email">이메일:</label>
+      <input type="email" id="email" name="email" />
+
+      <button type="submit">제출</button>
+    </form>
+  </body>
+</html>
