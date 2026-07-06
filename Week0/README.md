@@ -1,6 +1,6 @@
 # Week 0 — 멘토링 시작 전 사전 준비
 
-멘토링 시작 전, 각자 아래 내용 미리 준비/점검. Week1부터는 이거 다 됐다는 전제로 진행.
+멘토링 시작 전, 각자 아래 내용을 미리 준비/점검합니다. Week1부터는 이것이 다 됐다는 전제로 진행합니다.
 
 ## 0. 목표
 - 개발 환경(Python, VSCode, 브라우저, Git) 세팅 완료
@@ -21,7 +21,7 @@
 | Git | 터미널에 `git --version` | [git-scm.com](https://git-scm.com) |
 | GitHub 계정 | 로그인 가능 여부 | 없으면 [github.com](https://github.com) 가입 |
 
-설치 후 `SOURCE/env_check.py` 실행해서 환경 점검할 것.
+설치 후 `SOURCE/env_check.py`를 실행해서 환경을 점검하세요.
 
 ```bash
 python3 SOURCE/env_check.py
@@ -31,7 +31,7 @@ python3 SOURCE/env_check.py
 
 ## 2. 터미널 기본 명령어
 
-앞으로 서버 실행, 폴더 이동 등에 계속 씀. 아래 명령어는 눈에 익혀둘 것.
+앞으로 서버 실행, 폴더 이동 등에 계속 사용합니다. 아래 명령어를 눈에 익혀두세요.
 
 | 명령어 | 의미 |
 |---|---|
@@ -46,14 +46,14 @@ python3 SOURCE/env_check.py
 
 ## 3. Git / GitHub 기초 개념
 
-지금 당장 다 못 써도 됨. 아래 흐름만 이해하고 오기.
+지금 당장 다 사용하지 못해도 됩니다. 아래 흐름만 이해하고 오세요.
 
 1. `git clone <주소>` — 원격 저장소 내려받기
 2. `git add .` — 변경사항 스테이징
 3. `git commit -m "메시지"` — 커밋(저장 지점 생성)
 4. `git push` — 원격 저장소에 반영
 
-Week8에 배포할 때 실제로 사용함.
+Week8에 배포할 때 실제로 사용합니다.
 
 ---
 
@@ -65,7 +65,7 @@ Week8에 배포할 때 실제로 사용함.
 python3 SOURCE/python_selfcheck.py
 ```
 
-`모두 통과! Week1 준비 완료.` 문구 뜨면 완료. 막히는 부분 있으면 멘토링 시작 전 미리 질문할 것.
+`모두 통과! Week1 준비 완료.` 문구가 뜨면 완료입니다. 막히는 부분이 있으면 멘토링 시작 전 미리 질문하세요.
 
 다루는 개념:
 - 변수와 자료형 (str, int, bool)
@@ -80,14 +80,14 @@ python3 SOURCE/python_selfcheck.py
 
 ## 5. JS 맛보기 자가진단
 
-JS는 Week3부터 본격적으로 배움. Week0에선 딱 문법 느낌만 미리 잡는 용도.
+JS는 Week3부터 본격적으로 배웁니다. Week0에서는 딱 문법 느낌만 미리 잡는 용도입니다.
 `SOURCE/js_selfcheck.js` 열어서 TODO 채우고 실행.
 
 ```bash
 node SOURCE/js_selfcheck.js
 ```
 
-`모두 통과! JS 감 잡기 완료.` 뜨면 완료. 파일 안 주석에 Python이랑 어떻게 다른지 한 줄씩 비교 써놨으니 그거 보면서 채우면 됨. 안 풀려도 괜찮음 — Week3에서 처음부터 다시 다룸. 그냥 사전 노출용.
+`모두 통과! JS 감 잡기 완료.` 뜨면 완료입니다. 파일 안 주석에 Python이랑 어떻게 다른지 한 줄씩 비교해 써놨으니 그것을 보면서 채우면 됩니다. 안 풀려도 괜찮습니다 — Week3에서 처음부터 다시 다룹니다. 그냥 사전 노출용입니다.
 
 다루는 개념 (Python 대비):
 - 변수 선언 (`let`/`const` vs 그냥 대입)
@@ -108,7 +108,7 @@ node SOURCE/js_selfcheck.js
 - [ ] Git 설치, GitHub 계정 보유
 - [ ] 터미널에서 폴더 이동/파일 실행 가능
 - [ ] `python_selfcheck.py` 전체 통과
-- [ ] `js_selfcheck.js` 전체 통과 (안 되면 표시만 해두고 넘어가도 됨)
+- [ ] `js_selfcheck.js` 전체 통과 (안 되면 표시만 해두고 넘어가도 됩니다)
 
 ---
 
